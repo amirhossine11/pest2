@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>فروشگاه پسته‌فروش</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">پسته‌فروش</div>
+    <nav id="main-nav" class="nav hidden">
+      <ul>
+        <li><a href="#products">محصولات</a></li>
+        <li><a href="#about">درباره ما</a></li>
+        <li><a href="#help">راهنما</a></li>
+        <li><a href="#cart">سبد خرید 🛒<span id="cart-count">0</span></a></li>
+      </ul>
+    </nav>
+    <button id="menu-toggle" class="hamburger">☰</button>
+  </header>
+
+  <section class="hero">
+    <h1>خوش اومدید به فروشگاه تخصصی پسته ایران</h1>
+    <p>خرید آنلاین انواع پسته صادراتی با بهترین قیمت و کیفیت</p>
+  </section>
+
+  <main id="products" class="products">
+    <h2>محصولات ما</h2>
+    <div class="product-list">
+      <div class="product-card">
+        <img src="https://i.imgur.com/9ZQZ1Zy.png" alt="اکبری"/>
+        <h3>پسته اکبری</h3>
+        <p>پسته درشت و اعلا، مناسب صادرات</p>
+        <p class="price">۲۵۰٬۰۰۰ تومان</p>
+        <button onclick="addToCart('پسته اکبری')">افزودن به سبد</button>
+      </div>
+      <div class="product-card">
+        <img src="https://i.imgur.com/3Ge9yHP.png" alt="احمدآقایی"/>
+        <h3>پسته احمدآقایی</h3>
+        <p>طعم بی‌نظیر و ظاهر شکیل</p>
+        <p class="price">۲۲۰٬۰۰۰ تومان</p>
+        <button onclick="addToCart('پسته احمدآقایی')">افزودن به سبد</button>
+      </div>
+      <div class="product-card">
+        <img src="https://i.imgur.com/FYq0gUz.png" alt="فندقی"/>
+        <h3>پسته فندقی</h3>
+        <p>مناسب آجیل و پذیرایی</p>
+        <p class="price">۲۰۰٬۰۰۰ تومان</p>
+        <button onclick="addToCart('پسته فندقی')">افزودن به سبد</button>
+      </div>
+    </div>
+  </main>
+
+  <section id="about">
+    <h2>درباره ما</h2>
+    <p>طراحی و توسعه توسط امیرحسین پورعبداللهی</p>
+    <p>دانش‌آموخته توسعه وب و علاقه‌مند به ساخت فروشگاه‌های پیشرفته</p>
+    <p>هدف ما ارائه بهترین پسته ایران با کیفیت صادراتی به صورت آنلاین است.</p>
+  </section>
+
+  <section id="help">
+    <h2>راهنما</h2>
+    <p>برای خرید، محصول مورد نظر را به سبد اضافه کرده و با ما تماس بگیرید.</p>
+  </section>
+
+  <footer>
+    <p>© ۲۰۲۵ پسته‌فروش | طراحی توسط امیرحسین پورعبداللهی</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
